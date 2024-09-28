@@ -15,7 +15,9 @@ body{
 .game{
     width: 700px; 
     height: 500px; 
-    background-color: rgb(57, 8, 82); 
+    background-image: url('SpaceBackground.png');
+    background-size: cover; 
+    background-position: center; 
     position: relative; 
 }
 
