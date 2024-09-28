@@ -48,11 +48,12 @@ body{
 }
 
 
-.fun{
+/*.fun{
     width: 30px; 
     height: 30px; 
     background-color:rgb(62, 60, 60);
     position: absolute;
+<<<<<<< Updated upstream
  }
 
  .score {
@@ -63,4 +64,7 @@ body{
     font-size: 24px; /* Font size */
     z-index: 1; /* Ensure it stays on top */
 }
+=======
+ }*/
+>>>>>>> Stashed changes
  
