@@ -55,16 +55,15 @@ body{
     position: absolute;
 <<<<<<< Updated upstream
  }
-
+*/
  .score {
-    position: absolute; /* Position relative to the game area */
-    top: 10px; /* Distance from the top */
-    left: 10px; /* Distance from the left */
-    color: white; /* Text color */
-    font-size: 24px; /* Font size */
-    z-index: 1; /* Ensure it stays on top */
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    color: white; 
+    font-size: 24px; 
+    z-index: 1; 
 }
-=======
- }*/
->>>>>>> Stashed changes
+
+
  
