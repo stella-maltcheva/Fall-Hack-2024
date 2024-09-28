@@ -30,7 +30,9 @@ body{
 .student{
     width: 80px; 
     height: 50px;
-    background-color: bisque;
+    background-image: url('panickedstudent.jpg');
+    background-size: cover; 
+    background-position: center;
     position: absolute; 
     bottom: 15px;
     left: calc(50% - 40px);
