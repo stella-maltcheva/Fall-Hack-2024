@@ -35,7 +35,7 @@ function generateTasks(){
     var taskBottom = 470;
     var taskLeft = Math.floor(Math.random()*620);
     var task = document.createElement('div');
-    tasks.setAttribute("class", "task");
+    task.setAttribute("class", "task");
     tasks.appendChild(task);
 
     function fallDowntask(){
