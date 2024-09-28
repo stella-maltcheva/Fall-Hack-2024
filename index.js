@@ -47,9 +47,6 @@ function generateTasks(){
     var randomImage = taskImages[Math.floor(Math.random() * taskImages.length)];
     task.style.backgroundImage = `url('${randomImage}')`; 
 
-
-
-
     tasks.appendChild(task);
 
     function fallDowntask(){
