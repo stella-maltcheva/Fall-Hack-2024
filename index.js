@@ -3,6 +3,7 @@
 var game = document.querySelector(".game");
 var student = document.querySelector(".student");
 var tasks = document.querySelector(".tasks");
+var scoreDisplay = document.getElementById('scoreValue');
 
 var studentLeft = parseInt(window.getComputedStyle(student).getPropertyValue("left"));
 var studentBottom = parseInt(window.getComputedStyle(student).getPropertyValue("bottom"));
