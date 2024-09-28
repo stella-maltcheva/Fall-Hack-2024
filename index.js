@@ -39,6 +39,10 @@ function generateTasks(){
     tasks.appendChild(task);
 
     function fallDowntask(){
+
+        studentLeft = parseInt(window.getComputedStyle(student).getPropertyValue("left"));
+        studentBottom = parseInt(window.getComputedStyle(student).getPropertyValue("bottom"));
+        
         if (taskBottom < studentBottom+ 50 && taskBottom > studentBottom && taskLeft > studentLeft - 30 && taskLeft < studentLeft+80){
             tasks.removeChild(task);
             clearInterval(fallInterval);
