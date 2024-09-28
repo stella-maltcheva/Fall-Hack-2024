@@ -28,8 +28,8 @@ body{
 }
 
 .student{
-    width: 160px; 
-    height: 100px;
+    width: 130px; 
+    height: 85px;
     background-image: url('panickedstudent.jpg');
     background-size: cover; 
     background-position: center;
@@ -39,23 +39,14 @@ body{
 }
 
 .task{
-   width: 30px; 
-   height: 30px; 
+   width: 40px; 
+   height: 50px; 
    background-image: url('deadline.png');
    background-size: cover; 
    background-position: center;
    position: absolute;
 }
 
-
-/*.fun{
-    width: 30px; 
-    height: 30px; 
-    background-color:rgb(62, 60, 60);
-    position: absolute;
-<<<<<<< Updated upstream
- }
-*/
  .score {
     position: absolute; 
     top: 10px; 
