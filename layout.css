@@ -41,6 +41,17 @@ body{
 .task{
    width: 30px; 
    height: 30px; 
-   background-color:rgb(62, 60, 60);
+   background-image: url('panickedstudent.jpg');
+   background-size: cover; 
+   background-position: center;
    position: absolute;
 }
+
+
+.fun{
+    width: 30px; 
+    height: 30px; 
+    background-color:rgb(62, 60, 60);
+    position: absolute;
+ }
+ 
