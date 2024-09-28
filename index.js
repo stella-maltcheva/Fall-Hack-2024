@@ -1,8 +1,8 @@
  // index.js
 
 var game = document.querySelector(".game");
-var student = document.querySelector(".student");
-var tasks = document.querySelector(".tasks");
+var student = document. querySelector(".student");
+var tasks = document. querySelector(".tasks");
 
 var studentLeft = parseInt(window.getComputedStyle(student).getPropertyValue("left"));
 var studentBottom = parseInt(window.getComputedStyle(student).getPropertyValue("bottom"));
