@@ -47,6 +47,7 @@ function generateTasks(){
             tasks.removeChild(task);
             clearInterval(fallInterval);
             score++;
+            scoreDisplay.textContent = score;
         }
         if (taskBottom < studentBottom){
             alert("You failed, you missed a task! Your score is: " + score);
