@@ -1,8 +1,8 @@
  // index.js
 
 var game = document.querySelector(".game");
-var student = document. querySelector(".student");
-var tasks = document. querySelector(".tasks");
+var student = document.querySelector(".student");
+var tasks = document.querySelector(".tasks");
 
 var studentLeft = parseInt(window.getComputedStyle(student).getPropertyValue("left"));
 var studentBottom = parseInt(window.getComputedStyle(student).getPropertyValue("bottom"));
@@ -42,7 +42,7 @@ function generateTasks(){
 
         studentLeft = parseInt(window.getComputedStyle(student).getPropertyValue("left"));
         studentBottom = parseInt(window.getComputedStyle(student).getPropertyValue("bottom"));
-        
+
         if (taskBottom < studentBottom+ 50 && taskBottom > studentBottom && taskLeft > studentLeft - 30 && taskLeft < studentLeft+80){
             tasks.removeChild(task);
             clearInterval(fallInterval);
