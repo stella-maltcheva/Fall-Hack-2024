@@ -10,14 +10,14 @@ var score = 0;
 
 function moveStudentLeft(){
     if(studentLeft > 0){
-        studentLeft -= 50;
+        studentLeft -= 15;
         student.style.left = studentLeft + 'px';
     }
 }
 
 function moveStudentRight(){
     if(studentLeft < 620) {
-        studentLeft += 50;
+        studentLeft += 15;
         student.style.left = studentLeft + 'px';
     }
 }
@@ -49,7 +49,7 @@ function generateTasks(){
             score++;
         }
         if (taskBottom < studentBottom){
-            alert("Game over! Your score is: " + score);
+            alert("You failed, you missed a task! Your score is: " + score);
             clearInterval(fallInterval);
             clearTimeout(taskTimeout);
             location.reload();
