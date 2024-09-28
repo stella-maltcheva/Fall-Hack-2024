@@ -1,8 +1,8 @@
  // index.js
 
 var game = document.querySelector(".game");
-var student = document. querySelector(".student");
-var tasks = document. querySelector(".tasks");
+var student = document.querySelector(".student");
+var tasks = document.querySelector(".tasks");
 
 var studentLeft = parseInt(window.getComputedStyle(student).getPropertyValue("left"));
 var studentBottom = parseInt(window.getComputedStyle(student).getPropertyValue("bottom"));
@@ -26,7 +26,7 @@ function control(e){
     if (e.key == "ArrowLeft"){
         moveStudentLeft();
     }
-    if (e.key == "ArrayRight"){
+    if (e.key == "ArrowRight"){
         moveStudentRight();
     }
 }
@@ -45,10 +45,10 @@ function generateTasks(){
             score++;
         }
         if (taskBottom < studentBottom){
-            alert("Game over! Your score is: " + score);
+           //alert("Game over! Your score is: " + score);
             clearInterval(fallInterval);
             clearTimeout(taskTimeout);
-            location.reload;
+            location.reload();
         }
         taskBottom -= 5;
         task.style.bottom = taskBottom +'px';
