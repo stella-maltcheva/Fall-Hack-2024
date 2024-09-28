@@ -49,7 +49,7 @@ function generateTasks(){
             score++;
         }
         if (taskBottom < studentBottom){
-           //alert("Game over! Your score is: " + score);
+            alert("Game over! Your score is: " + score);
             clearInterval(fallInterval);
             clearTimeout(taskTimeout);
             location.reload();
