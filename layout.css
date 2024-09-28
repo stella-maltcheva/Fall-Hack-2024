@@ -33,7 +33,7 @@ body{
     background-color: bisque;
     position: absolute; 
     bottom: 15px;
-    left: calc(50% - 25px);
+    left: calc(50% - 40px);
 }
 
 .tasks{
