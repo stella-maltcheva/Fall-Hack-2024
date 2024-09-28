@@ -41,12 +41,13 @@ body{
 .task{
    width: 30px; 
    height: 30px; 
-   background-image: url('panickedstudent.jpg');
+   background-image: url('deadline.png');
    background-size: cover; 
    background-position: center;
    position: absolute;
 }
 
+<<<<<<< Updated upstream
 
 /*.fun{
     width: 30px; 
@@ -67,3 +68,5 @@ body{
 
 
  
+=======
+>>>>>>> Stashed changes
