@@ -1,4 +1,4 @@
-// index.js
+ // index.js
 
 var game = document.querySelector(".game");
 var student = document. querySelector(".student");
@@ -9,13 +9,17 @@ var studentBottom = parseInt(window.getComputedStyle(student).getPropertyValue("
 var score = 0; 
 
 function moveStudentLeft(){
-    studentLeft -= 15;
-    student.style.left = studentLeft + 'px';
+    if(studentLeft > 0){
+        studentLeft -= 15;
+        student.style.left = studentLeft + 'px';
+    }
 }
 
 function moveStudentRight(){
-    studentLeft += 15;
-    student.style.left = studentLeft + 'px';
+    if(studentLeft < 620) {
+        studentLeft += 15;
+        student.style.left = studentLeft + 'px';
+    }
 }
 
 function control(e){
