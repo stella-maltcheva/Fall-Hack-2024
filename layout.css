@@ -15,7 +15,7 @@ body{
 .game{
     width: 700px; 
     height: 500px; 
-    background-color: darkorchid; 
+    background-color: rgb(57, 8, 82); 
     position: relative; 
 }
 
@@ -32,7 +32,7 @@ body{
     height: 50px;
     background-color: bisque;
     position: absolute; 
-    bottom: 15px; 
-    left: calc(50% -25px);
+    bottom: 15px
+    left: calc(50% - 25px);
 }
 
