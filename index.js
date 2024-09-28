@@ -10,14 +10,14 @@ var score = 0;
 
 function moveStudentLeft(){
     if(studentLeft > 0){
-        studentLeft -= 15;
+        studentLeft -= 1;
         student.style.left = studentLeft + 'px';
     }
 }
 
 function moveStudentRight(){
     if(studentLeft < 620) {
-        studentLeft += 15;
+        studentLeft += 1;
         student.style.left = studentLeft + 'px';
     }
 }
