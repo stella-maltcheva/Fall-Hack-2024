@@ -8,6 +8,11 @@ var studentLeft = parseInt(window.getComputedStyle(student).getPropertyValue("le
 var studentBottom = parseInt(window.getComputedStyle(student).getPropertyValue("bottom"));
 var score = 0; 
 
+var taskImages = [
+    'panickedstudent.jpg',  
+    'stressedstudent.png',
+];
+
 
 
 function moveStudentLeft(){
@@ -38,6 +43,10 @@ function generateTasks(){
     var taskLeft = Math.floor(Math.random()*620);
     var task = document.createElement('div');
     task.setAttribute("class", "task");
+
+    var randomImage = taskImages[Math.floor(Math.random() * taskImages.length)];
+    task.style.backgroundImage = `url('${randomImage}')`; 
+
     tasks.appendChild(task);
 
     function fallDowntask(){
