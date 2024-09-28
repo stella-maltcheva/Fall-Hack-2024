@@ -1,4 +1,5 @@
- // index.js
+ // 
+ //index.js
 
 var game = document.querySelector(".game");
 var student = document.querySelector(".student");
@@ -9,8 +10,8 @@ var studentBottom = parseInt(window.getComputedStyle(student).getPropertyValue("
 var score = 0; 
 
 var taskImages = [
-    'panickedstudent.jpg',  
-    'stressedstudent.png',
+    'panickedstudent.png',  
+    'deadline.png',
 ];
 
 
@@ -36,6 +37,13 @@ function control(e){
     if (e.key == "ArrowRight"){
         moveStudentRight();
     }
+}
+
+function resetGame() {
+    score = 0;  
+    scoreDisplay.textContent = score; 
+    tasks.innerHTML = ''; 
+    generateTasks();
 }
 
 function generateTasks(){
@@ -64,7 +72,7 @@ function generateTasks(){
             alert("You failed, you missed a task! Your score is: " + score);
             clearInterval(fallInterval);
             clearTimeout(taskTimeout);
-            location.reload();
+            resetGame();
         }
         taskBottom -= 5;
         task.style.bottom = taskBottom +'px';
