@@ -2,7 +2,7 @@
 
 Installation: To install our project, you open our GitHub and download all the files. 
 Running the project: Run the fallhacks2024.html, it should open in a browser. 
-How to play the game: The browser will show a panicked emoji. To start the game, move the <- and -> arrows. 
+How to play the game: The browser will show a panicked emoji. To move, use the <- and -> arrows. 
                       The emoji will start moving, this emoji is meant to represent a stressed student. 
                       The objective of the game is to catch as many of the falling objects as possible. 
                       The more you get, the higher of a score you will recieve. 
