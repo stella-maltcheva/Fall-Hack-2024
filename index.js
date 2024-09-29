@@ -14,7 +14,7 @@ var taskImages = [
     'deadline.png',
     'sleep.png',
     'ramen.png',
-     'job.png'
+     'job.png',
 ];
 
 
@@ -43,9 +43,17 @@ function control(e){
 }
 
 function resetGame() {
-    score = 0;  
-    scoreDisplay.textContent = score; 
-    tasks.innerHTML = ''; 
+    var existingTasks = document.querySelectorAll('.task');
+    existingTasks.forEach(task => {
+        tasks.removeChild(task);
+    });
+    score = 0;
+    scoreDisplay.textContent = score;
+
+    studentLeft = 320; 
+    student.style.left = studentLeft + 'px'; 
+    student.style.bottom = '15px'; 
+
     generateTasks();
 }
 
