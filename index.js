@@ -10,8 +10,11 @@ var studentBottom = parseInt(window.getComputedStyle(student).getPropertyValue("
 var score = 0; 
 
 var taskImages = [
-    'panickedstudent.png',  
+    'coffee.png',  
     'deadline.png',
+    'sleep.png',
+    'ramen.png',
+     'job.png'
 ];
 
 
@@ -84,5 +87,6 @@ function generateTasks(){
 }
 
 generateTasks();
+
 
 document.addEventListener("keydown",control);
