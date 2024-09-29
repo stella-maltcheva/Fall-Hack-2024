@@ -14,7 +14,7 @@ var taskImages = [
     'deadline.png',
     'sleep.png',
     'ramen.png',
-     'job.png'
+     'job.png',
 ];
 
 
