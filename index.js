@@ -72,7 +72,7 @@ function generateTasks(){
             scoreDisplay.textContent = score;
         }
         if (taskBottom < studentBottom){
-            alert("You failed, you missed a task! Your score is: " + score);
+            alert("You failed! Your score is: " + score);
             clearInterval(fallInterval);
             clearTimeout(taskTimeout);
             resetGame();
